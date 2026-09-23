@@ -5,14 +5,14 @@ import Skills from "../Components/Skills";
 import Proyects from "../Components/Proyects";
 import Footer from "../Components/Footer";
 
-const Home = () => {
+const Home = ({habilidades, proyectos}) => {
     return (
         <div>
             <Header />
             <Hero />
             <About />
-            <Skills />
-            <Proyects />
+            <Skills habilidades={habilidades}/>
+            <Proyects proyectos={proyectos}/>
             <Footer />
         </div>
     )

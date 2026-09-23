@@ -2,7 +2,7 @@
 const Header = () => {
     return(
         <div>
-            HEADER
+            <h1>Atalia, Gil Garau</h1>
         </div>
     )
 
