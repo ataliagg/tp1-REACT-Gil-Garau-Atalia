@@ -14,18 +14,31 @@ const Proyects = () => {
     }
     ]
 
-    const [proyecto, setProyectos] = useState ([proyectos])
+    const [proyecto, setProyectos] = useState([proyectos])
+
+    const [verProyec, setVerProyect] = useState(false)
+    const handleClick = () => {
+        setVerProyect(!verProyec)
+    }
 
     return (
         <div>
-            {proyectos.map((proyecto) => (
-                <div>
-                <h4>{proyecto.nombre} </h4>
-                <p>{proyecto.descripcion}</p>
-                <a href={proyecto.link}> Ver proyecto </a>
-                </div> ))}
-        </div>        
-    )
-}
+            <button type="button" onClick={handleClick}>
+                {verProyec ? "Cerrar" : "Ver proyectos"}
+            </button>
 
-export default Proyects 
+            {verProyec === true ? (proyectos.map((proyecto) => (
+                <div>
+                    <h4>{proyecto.nombre} </h4>
+                    <p>{proyecto.descripcion}</p>
+                    <a href={proyecto.link}> Ver proyecto </a>
+                </div>))
+            ): null }
+
+            <br/>
+            
+        </div>
+    )
+
+}
+export default Proyects ;

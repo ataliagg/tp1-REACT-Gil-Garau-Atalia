@@ -6,10 +6,9 @@ const Skills = () => {
     return (
 
         <div>
-            <h3>Skills</h3>
-
-            {habilidades.map((habilidad) => (<p>{habilidad}</p>))}
-            <br />
+            <h4>Habilidades: </h4>
+             {habilidades.map((habilidad) => (<p>{habilidad}</p>))}
+            <br/>
         </div>
     )
 }

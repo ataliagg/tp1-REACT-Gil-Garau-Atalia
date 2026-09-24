@@ -2,7 +2,8 @@
 const Footer = () => {
     return (
         <div>
-            FOOTER
+            <br/>
+            <p>UTN - 2026</p>
         </div>
     )
 }
