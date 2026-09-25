@@ -9,8 +9,6 @@ const Header = () => {
         <a href="#proyectos">Proyectos</a>
         <a href="#contacto">Contacto</a>
       </nav>
-      <br/>
-      <br/>
         </div>
     )
 

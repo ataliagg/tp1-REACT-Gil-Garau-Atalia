@@ -8,6 +8,7 @@ const Skills = () => {
 
         <div id="habilidades">
             <h4 style={{ color: '#ddd5b8' }}>Habilidades: </h4>
+            <br/>
             <div className="habilidades">
                 {habilidades.map((habilidad) => (<p className="lista" key={habilidad}> {habilidad} </p>))}
             </div>

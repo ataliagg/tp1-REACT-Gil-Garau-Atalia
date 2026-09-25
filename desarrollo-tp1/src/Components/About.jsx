@@ -6,8 +6,9 @@ const About = () => {
     return (
         <div id="about">
             <br/>
-            <h2>Sobre mi:</h2>
-            <p style={{color:'black', fontSize: '15px', padding:"30px" }}>
+            <br/>
+            <h2 style={{color:'#ddd5b8'}}>Sobre mi:</h2>
+            <p style={{color:'black', fontSize: '18px', padding:"20px" }}>
                 Estudiante de la Tecnicatura Universitaria
                  en Programación, con conocimientos en desarrollo web,
                  herramientas digitales y experiencia en atención al 

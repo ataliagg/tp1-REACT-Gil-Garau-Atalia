@@ -3,17 +3,9 @@
   justify-content: right;
   gap: 18px;
   padding: 20px;
-  background-color: #ddd5b8;
+  background-color: #e0d9bc;
 }
 
 .menu a {
   color: black;
 }
-
-/* .menu a:hover {
-  text-decoration: underline;
-}
-
-html {
-  scroll-behavior: smooth;
-} */

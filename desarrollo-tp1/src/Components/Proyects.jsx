@@ -36,13 +36,12 @@ const Proyects = () => {
                 ) : null}
             </div>
             <br />
+            <br/>
             <button type="button" className="button" onClick={handleClick}>
                 {verProyec ? "Cerrar" : "Ver proyectos"}
             </button>
-
-
+            <br/>
             <br />
-
         </div>
     )
 
