@@ -37,3 +37,4 @@ Abrir en el navegador la dirección que indique la terminal, normalmente `http:/
 
 ## Repositorio
 [Ver repositorio en GitHub]
+https://github.com/ataliagg/tp1-REACT-Gil-Garau-Atalia.git
