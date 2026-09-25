@@ -1,0 +1,16 @@
+
+ .hero{
+  display: flex; 
+  align-items: center; 
+  gap: 12px;  
+  background-color: rgba(206, 205, 199, 0.433);    
+}
+.img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover; 
+  flex-shrink: 0;  
+}
+.texto{
+    text-align: left;
+}

@@ -5,8 +5,7 @@ import {useState} from "react"
 const About = () => {
     return (
         <div>
-            <br/> 
-            <p>
+            <p style={{color:'black', fontSize: '15px', padding:"30px" }}>
                 Estudiante de la Tecnicatura Universitaria
                  en Programación, con conocimientos en desarrollo web,
                  herramientas digitales y experiencia en atención al 

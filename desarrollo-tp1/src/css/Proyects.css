@@ -1,0 +1,21 @@
+.button {              
+  padding: 5px;
+  text-align: center;
+  background-color: #ddd5b8;
+  border: 2px solid #ddd5b8;
+  border-radius: 10;
+}
+
+.cuadro {
+    display: flex;
+    margin-top: 20px;
+}
+.proyectos {
+    flex: 1; 
+  padding: 20px;
+  text-align: center;
+}   
+
+.proyectos + .proyectos { 
+  border-left: 2px solid #ddd5b8;
+}

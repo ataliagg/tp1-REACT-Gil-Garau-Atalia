@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "../css/Proyects.css"
 
 const Proyects = () => {
 
@@ -23,22 +24,26 @@ const Proyects = () => {
 
     return (
         <div>
-            <button type="button" onClick={handleClick}>
+            <br />
+            <button type="button" className="button" onClick={handleClick}>
                 {verProyec ? "Cerrar" : "Ver proyectos"}
             </button>
 
-            {verProyec === true ? (proyectos.map((proyecto) => (
-                <div>
-                    <h4>{proyecto.nombre} </h4>
-                    <p>{proyecto.descripcion}</p>
-                    <a href={proyecto.link}> Ver proyecto </a>
-                </div>))
-            ): null }
+            <div className="cuadro">
 
-            <br/>
-            
+                {verProyec === true ? (proyectos.map((proyecto) => (
+                    <div key={proyecto.nombre} className="proyectos">
+                        <h2 style={{ color: '#d0c18b' }}> {proyecto.nombre} </h2>
+                        <p style={{color: "black"}}> {proyecto.descripcion} </p>
+                        <a style={{color: "#d0c18b"}}href={proyecto.link}> Ver proyecto </a>
+                    </div>))
+                ) : null}
+            </div>
+
+            <br />
+
         </div>
     )
 
 }
-export default Proyects ;
+export default Proyects;

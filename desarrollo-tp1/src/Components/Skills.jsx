@@ -1,4 +1,5 @@
 import { useState } from "react"
+import "../css/Skills.css"
 
 const Skills = () => {
     const [habilidades, setHabilidades] = useState(["C#", "HTML", "CSS", "React", "MySQL"])
@@ -6,8 +7,10 @@ const Skills = () => {
     return (
 
         <div>
-            <h4>Habilidades: </h4>
-             {habilidades.map((habilidad) => (<p>{habilidad}</p>))}
+            <h4 style={{ color: '#ddd5b8' }}>Habilidades: </h4>
+            <div className="habilidades">
+                {habilidades.map((habilidad) => (<p className="lista" key={habilidad}> {habilidad} </p>))}
+            </div>
             <br/>
         </div>
     )
