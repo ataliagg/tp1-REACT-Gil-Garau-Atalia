@@ -4,7 +4,9 @@ import {useState} from "react"
 
 const About = () => {
     return (
-        <div>
+        <div id="about">
+            <br/>
+            <h2>Sobre mi:</h2>
             <p style={{color:'black', fontSize: '15px', padding:"30px" }}>
                 Estudiante de la Tecnicatura Universitaria
                  en Programación, con conocimientos en desarrollo web,

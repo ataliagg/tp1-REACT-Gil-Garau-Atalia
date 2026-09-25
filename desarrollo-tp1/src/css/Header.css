@@ -1,0 +1,19 @@
+.menu {
+  display: flex;
+  justify-content: right;
+  gap: 18px;
+  padding: 20px;
+  background-color: #ddd5b8;
+}
+
+.menu a {
+  color: black;
+}
+
+/* .menu a:hover {
+  text-decoration: underline;
+}
+
+html {
+  scroll-behavior: smooth;
+} */

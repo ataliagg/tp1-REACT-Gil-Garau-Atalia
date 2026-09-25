@@ -23,12 +23,8 @@ const Proyects = () => {
     }
 
     return (
-        <div>
-            <br />
-            <button type="button" className="button" onClick={handleClick}>
-                {verProyec ? "Cerrar" : "Ver proyectos"}
-            </button>
-
+        <div id="proyectos">
+            
             <div className="cuadro">
 
                 {verProyec === true ? (proyectos.map((proyecto) => (
@@ -39,6 +35,11 @@ const Proyects = () => {
                     </div>))
                 ) : null}
             </div>
+            <br />
+            <button type="button" className="button" onClick={handleClick}>
+                {verProyec ? "Cerrar" : "Ver proyectos"}
+            </button>
+
 
             <br />
 
