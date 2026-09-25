@@ -9,6 +9,12 @@ Portfolio personal desarrollado para el Trabajo Práctico 1. Incluye una present
 
 La aplicación utiliza componentes de React, props, listas generadas con map() y un botón para mostrar u ocultar los proyectos mediante eventos, estado y renderizado condicional.
 
+- Proyectos:
+1. https://mjcleaningsolution.com/
+2. https://redesdeseguridadnoa.com/
+
+
+
 ## Tecnologías utilizadas
 - React
 - Vite
