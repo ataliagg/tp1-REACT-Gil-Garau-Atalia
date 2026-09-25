@@ -1,16 +1,39 @@
-# React + Vite
+# Portfolio personal — Atalia Gil Garau
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Estudiante
+Atalia Gil Garau  
+Legajo: 63396  
 
-Currently, two official plugins are available:
+## Descripción
+Portfolio personal desarrollado para el Trabajo Práctico 1. Incluye una presentación, información sobre mí, habilidades, proyectos reales desarrollados y datos de contacto.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La aplicación utiliza componentes de React, props, listas generadas con map() y un botón para mostrar u ocultar los proyectos mediante eventos, estado y renderizado condicional.
 
-## React Compiler
+## Tecnologías utilizadas
+- React
+- Vite
+- JavaScript
+- HTML y CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Instalación
+Para ejecutar el proyecto tuve que instalar Node.js y npm. Tambien podemos ayudarnos con otras librerias para la estetica (bootstrap) pero no es necesario, yo las instale pero no las utilice. 
 
-## Expanding the ESLint configuration
+1. Descargar o clonar este repositorio.
+2. Abrir una terminal dentro de la carpeta `desarrollo-tp1`.
+3. Instalar las dependencias:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+   ```bash
+   npm install
+   ```
+
+## Ejecución local
+Desde la misma carpeta, ejecutar:
+
+```bash
+npm run dev
+```
+
+Abrir en el navegador la dirección que indique la terminal, normalmente `http://localhost:5173`.
+
+## Repositorio
+[Ver repositorio en GitHub]
