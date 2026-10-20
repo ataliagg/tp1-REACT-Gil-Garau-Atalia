@@ -1,7 +1,9 @@
+import Footer from "../Components/Footer"
+
 const Contact = () => {
 return (
     <div>
-        
+        <Footer />
     </div>
 )
 }

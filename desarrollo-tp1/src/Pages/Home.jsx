@@ -1,9 +1,9 @@
 import Header from "../Components/Header";
 import Hero from "../Components/Hero";
-import About from "../Components/About";
-import Skills from "../Components/Skills";
-import Proyects from "../Components/Proyects";
-import Footer from "../Components/Footer";
+// import About from "../Components/AboutCard";
+// import Skills from "../Components/Skills";
+// import Proyects from "../Components/ProjectsCard";
+// import Footer from "../Components/Footer";
 
 const Home = ({habilidades, proyectos}) => {
     return (
