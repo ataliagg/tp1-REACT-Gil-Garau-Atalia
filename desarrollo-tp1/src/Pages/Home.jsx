@@ -10,10 +10,10 @@ const Home = ({habilidades, proyectos}) => {
         <div>
             <Header />
             <Hero />
-            <About />
+            {/* <About />
             <Skills habilidades={habilidades}/>
             <Proyects proyectos={proyectos}/>
-            <Footer />
+            <Footer /> */}
         </div>
     )
 }
