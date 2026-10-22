@@ -1,0 +1,37 @@
+
+.layout {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #372ea8;
+    color: white;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    color: #70cfff;
+    font-weight: bold;
+}
+
+.contenido {
+    width: 70%;
+    padding: 30px;
+    box-sizing: border-box;
+    min-width: 0;
+}
+

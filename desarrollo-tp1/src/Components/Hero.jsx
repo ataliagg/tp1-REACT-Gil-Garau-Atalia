@@ -18,4 +18,4 @@ const Hero = () => {
         </div>
     )
 }
-export default Hero
+export default Hero;
