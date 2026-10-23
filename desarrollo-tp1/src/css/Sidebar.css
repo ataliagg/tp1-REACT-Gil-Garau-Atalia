@@ -6,8 +6,9 @@
 
 .sidebar {
     width: 30%;
-    background-color: #372ea8;
-    color: white;
+    background-color: rgba(206, 205, 199, 0.433);
+    color: black;
+    flex-shrink: 0;
     padding: 30px;
     box-sizing: border-box;
 }
@@ -19,12 +20,12 @@
 }
 
 .sidebar a {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 .sidebar a.active {
-    color: #70cfff;
+    color:#e0d9bc;
     font-weight: bold;
 }
 
@@ -35,3 +36,17 @@
     min-width: 0;
 }
 
+@media (max-width: 768px) {
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+    }
+
+    .contenido {
+        width: 100%;
+        padding: 15px;
+    }
+}

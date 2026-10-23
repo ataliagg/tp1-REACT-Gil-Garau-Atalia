@@ -1,9 +1,11 @@
+import { useState } from "react";
 import ProyectsCards from "../Components/ProjectsCard"
 
-const Projects = () => {
+const Projects = ({proyectos}) => {
+
 return (
     <div>
-        <ProyectsCards />
+        <ProyectsCards proyectos={proyectos}/>
     </div>
 )
 }

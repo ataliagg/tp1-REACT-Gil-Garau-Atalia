@@ -1,9 +1,9 @@
 import SkillsCard from "../Components/SkillsCard"
 
-const Skills = () => {
+const Skills = ({habilidades}) => {
 return (
     <div>
-        <SkillsCard />
+        <SkillsCard habilidades={habilidades}/>
     </div>
 )
 }
