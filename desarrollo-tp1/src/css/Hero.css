@@ -1,16 +1,39 @@
 
- .hero{
-  display: flex; 
-  align-items: center; 
-  gap: 12px;  
-  background-color: rgba(206, 205, 199, 0.433);    
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    gap: 20px;
+
+    text-align: center;
 }
+
 .img {
-  width: 180px;
-  height: 180px;
-  object-fit: cover; 
-  flex-shrink: 0;  
+    width: 180px;
+    height: 180px;
+
+    object-fit: cover;
+    border-radius: 0;
+
+    border: 4px solid #ddd5b8;
 }
-.texto{
-    text-align: left;
+
+.texto {
+    text-align: center;
+    max-width: 600px;
+}
+
+.texto h1 {
+    font-size: 32px;
+    margin: 0 0 15px;
+}
+
+.texto h4 {
+    font-size: 17px;
+    font-weight: normal;
+    margin: 10px 0;
+    color: #706c63;
 }

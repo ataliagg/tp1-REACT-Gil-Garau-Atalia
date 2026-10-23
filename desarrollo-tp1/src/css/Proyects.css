@@ -1,21 +1,60 @@
-.button {              
-  padding: 5px;
-  text-align: center;
-  background-color: #ddd5b8;
-  border: 2px solid #ddd5b8;
-  border-radius: 10;
-}
-
 .cuadro {
     display: flex;
-    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
 }
-.proyectos {
-    flex: 1; 
-  padding: 20px;
-  text-align: center;
-}   
 
-.proyectos + .proyectos { 
-  border-left: 2px solid #ddd5b8;
+.proyectos {
+    width: 90%;
+    padding: 25px;
+
+    background-color: white;
+    border: 1px solid #ddd5b8;
+    border-radius: 10px;
+
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.proyectos h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.proyectos p {
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.proyectos a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button {
+    padding: 12px 25px;
+
+    background-color: #ddd5b8;
+    color: #403d36;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 15px;
+    cursor: pointer;
+
+    transition: background-color 0.2s;
+}
+
+.button:hover {
+    background-color: #cfc39f;
+}
+
+@media (max-width: 768px) {
+    .proyectos {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
 }

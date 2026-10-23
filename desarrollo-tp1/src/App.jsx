@@ -15,15 +15,17 @@ const App = () => {
     <BrowserRouter>
       <div className="layout">
         <Sidebar />
+        <main className="contenido">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
 
-        <Routes className='contenido'>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/skills" element={<Skills />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          </Routes>
 
-        </Routes>
+        </main>
 
       </div>
     </BrowserRouter>

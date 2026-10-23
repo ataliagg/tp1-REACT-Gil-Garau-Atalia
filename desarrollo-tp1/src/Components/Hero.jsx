@@ -4,7 +4,6 @@ import "../css/Hero.css";
 const Hero = () => {
     return (
         <div id="inicio" className="hero">
-            <br/>
             <img src={Imagen} alt="Foto de Precentacion" className="img"/>
             <div className="texto">
             <br/>
