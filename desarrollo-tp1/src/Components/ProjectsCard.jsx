@@ -12,6 +12,11 @@ const Proyects = () => {
         nombre: 'Redes de Seguridad NOA',
         descripcion: 'Pagina web de una empresa que instala redes de seguridad',
         link: 'https://redesdeseguridadnoa.com/'
+    },
+    {
+    nombre: "Mi Portfolio",
+    descripcion: "Portfolio personal desarrollado con React y Vite",
+    link: "https://github.com/ataliagg/tp1-REACT-Gil-Garau-Atalia.git"
     }
     ]
 
